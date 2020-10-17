@@ -1,0 +1,377 @@
+@charset "utf-8";
+*
+{
+        margin: 0;
+    padding: 0;
+       
+}
+body
+{
+
+}
+/*---------- Navigation------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+       
+}
+header
+{
+    background: #008489;
+    
+}
+.navbar-brand img
+{
+    height: 80px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*-------SLIDER------*/
+
+#slider
+{
+    width: 100%;
+
+}
+.carousel-item img
+{
+ overflow: hidden;
+}
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+carousel-caption h5
+{
+    color: #fff;
+    font-size: 42px;
+}
+/*----------About------*/
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn
+{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.profile-pic
+{
+    margin-top: 25px;
+}
+.profile-pic .img-box
+{
+  opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img
+{
+  filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+  filter: grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2
+{
+    font-size: 22px;
+    font-weight:bold;
+    margin-top: 15px;
+    color: #007bff; !important;
+}
+.profile-pic h3
+{
+    font-size: 15px;
+    font-weight:bold;
+    margin-top: 15px;
+}
+#about .fa
+{
+    height: 25px;
+    width: 25px;
+    color: #007bff; !important;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%;
+}
+.img-box ul
+{
+    padding: 50px 0;
+    position:absolute;
+    z-index: 2;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.img-box ul li
+{
+    padding: 5px;
+    display: inline-block;
+}
+.img-box:hover ul
+{
+    opacity: 1;
+}
+.img-box ul, .img-box ul li
+{
+    transition: 0.5s;
+}
+/*----------------------------------PROJECTS--------------------------------*/
+
+#project
+{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/days_gone2.jpg);
+   background-size: cover;
+    background-position: center;
+    color:#efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;   
+}
+.screenshot-blog
+{
+     box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+   /* padding-bottom: 10px;*/
+    margin-top: 30px;
+    background-color: #fff;
+}
+.single-blog
+{ 
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+.single-blog img
+{
+    width: 50%;
+}
+.blog-meta
+{
+    font-size: 14px;
+    margin-bottom: 2px;
+    color: black;
+}
+.single-blog span
+{
+    float: right;
+    font-size: 14px;
+    color: #0e3376;
+}
+.blog-text
+{
+    font-size: 14px;
+    text-align: justify;
+    color: black;
+}
+.single-blog h2
+{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007bff;
+}
+.single-blog h2 a
+{
+    text-decoration: none;
+}
+.read-more-btn
+{
+    background-image: linear-gradient(to right, #1c03b5,#5c8bef);
+    padding: 5px 12px 8px;
+    border-radius: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #fff;
+    border:none!important;
+}
+.read-more-btn:hover
+{
+    background-image: linear-gradient(to right, #006417,#00b128);
+    text-decoration:none;
+    color:#fff;
+    
+}
+.swiper-container
+{
+    height: 500px;
+}
+.swiper-wrapper
+{
+    align-items:center;
+}
+.swiper-slide
+{
+    width: 200px;
+    height: 500px;
+    border-radius: 7px;
+}
+..swiper-slide img
+{
+    width: 200px;
+    height: 500px;
+    border-radius: 7px;
+}
+.swiper-slide-active
+{
+    transform: scale(1.1);
+    transition: .4s;
+}
+.swiper-pagination
+{
+    bottom:0 !important;
+}
+
+
+/*----------------Skill---------------------*/
+#skills
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/Lin_b1.png);
+    background-size: cover;
+    /*background-position: center;*/
+    color:#efefef!important;
+   /* background-attachment: fixed;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.skills-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600px;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px!important;
+    margin-bottom: 20px;
+}
+#skills h1
+{
+    text-align: center;
+    /*color: #555 !important;*/
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170;
+    margin: 20px auto 5px;
+}
+
+/*-------------------Get In Touch-------------------------*/
+/*#contact
+{
+   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/my_contact.png);
+    background-size: cover;
+    background-position: center;
+    color:#efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}*/
+#contact
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/my_contact.png);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+#contact h1
+{
+     text-align: center;
+   /* color: #555 !important;*/
+    padding-bottom: 10px;   
+}
+.contact form
+{
+    padding: 15px;
+    color: #555 !important;
+}
+.form-control
+{
+    border-radius: 0!important;
+    border: none !important;
+}
+::placeholder
+{
+    color: #999 !important;
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin:15px;
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+/*-------Footer-----------*/
+#footer
+{
+    background: #333f;
+    color: #fff;
+    padding: 12px;
+}
+.fa-heart-o
+{
+    margin: 3px;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
