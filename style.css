@@ -327,10 +327,10 @@ h1::after
    /* color: #555 !important;*/
     padding-bottom: 10px;   
 }
-.contact form
+.contact-form
 {
     padding: 15px;
-    color: #555 !important;
+    color: #000000 !important;
 }
 .form-control
 {
@@ -339,13 +339,22 @@ h1::after
 }
 ::placeholder
 {
-    color: #999 !important;
+    color: #000000 !important;
 }
 .follow
 {
     background: #fff;
     padding: 10px;
     margin:15px;
+    color: #000000 !important;
+}
+.follow
+{
+    
+}
+.follow b
+{
+   color: #000000 !important; 
 }
 .contact-info .fa
 {
